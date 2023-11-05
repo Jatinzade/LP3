@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn import preprocessing
 
-df = pd.read_csv('C://Users/Jatin/Desktop/Lp3prac/ML/churn_modelling.csv')
+df = pd.read_csv('C://Users/churn_modelling.csv')
 df.info()
 
 df.head()
