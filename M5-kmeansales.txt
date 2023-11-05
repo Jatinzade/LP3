@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('C://Users/Jatin/Desktop/Lp3prac/ML/sales_data_sample.csv', encoding='latin1')
+df = pd.read_csv('C://Users/sales_data_sample.csv', encoding='latin1')
 df.head()
 
 fig = plt.figure(figsize=(12,10))
