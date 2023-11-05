@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C://Users/Jatin/Desktop/Lp3prac/ML/emails.csv")
+df = pd.read_csv("C://Users/emails.csv")
 df.head()
 
 df.isnull().sum()
